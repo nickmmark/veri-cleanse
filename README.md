@@ -82,18 +82,18 @@ The initial work can be broken into discreet stages; each of these POCs includes
 5. A virtual machine server that can accept messages and display basic statistics about use
 
 # Abbreviations
-HAI - healthcare associated infections
-CAUTI - catheter associated urinary tract infection
-CLABSI - central line associated blood stream infection
-MRSA - methicillin resistant staphylococcus aureus
-CDI - clostridium difficile infection
-IOT - internet of things
-NFC - near field communication
-BLE - Bluetooth low energy beacons
-RFID - radiofrequency identification
+- HAI - healthcare associated infections
+- CAUTI - catheter associated urinary tract infection
+- CLABSI - central line associated blood stream infection
+- MRSA - methicillin resistant staphylococcus aureus
+- CDI - clostridium difficile infection
+- IOT - internet of things
+- NFC - near field communication
+- BLE - Bluetooth low energy beacons
+- RFID - radiofrequency identification
 
-# Versioning/To-Do
-
+# Versioning/Known issues/To-Do
+- 
 
 # References/See also
 * Magill SS, Edwards JR, Bamberg W, et al. [Multistate Point-Prevalence Survey of Health Care–Associated Infections](https://www.nejm.org/doi/10.1056/NEJMoa1306801?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub%3dwww.ncbi.nlm.nih.gov). New England Journal of Medicine 2014; 370:1198-208.
