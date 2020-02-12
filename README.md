@@ -17,6 +17,8 @@ Using technology to prevent Healthcare Associated Infections (HAI)
     
 * Thus simply improving hand washing compliance would prevent the majority of HAIs and resulting in tens of thousands of lives and billions of dollars saved annually.
     * For example, [an intensive hand hygiene improvement campaign demonstrated a sustained 10% improvement in hand hygiene compliance](https://wwwnc.cdc.gov/eid/article/22/9/15-1440_article) (as ascertained by observers) and a 14% reduction in the rate of HAI-CDIs over a 2 year period.
+![effectiveness of prior intervention](https://github.com/nickmmark/hand-hi-gene/blob/master/figures/example_intervention.jpg)
+    
 * Unfortunately, prior approaches have failed for multiple reasons including:
     * imperfect data collection: high failure rate in capturing events, inability to collect both gel and hand washing data, 
     * lack of feedback to users: inability to capture individual level data and provide meaningful feedback
@@ -34,7 +36,7 @@ Using technology to prevent Healthcare Associated Infections (HAI)
     * Data is collected and users can receive rewards for achieving hand hygiene compliance; data can also be used for hospital wide initiatives and incentives
 * Users who maintain a high rate of hand hygiene are given short term rewards (‘achievement unlocked’) within the app and longer term bonuses (performance bonus partially tied to % hand hygiene compliance)
 
-![proposed end to end solution]()
+![proposed end to end solution](https://github.com/nickmmark/hand-hi-gene/blob/master/figures/proposed_sysem_overview.png)
 
 * Although the largest benefit might be realized in the healthcare space, there are many groups that could benefit from this product
    * hospitals
