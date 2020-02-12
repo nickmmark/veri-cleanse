@@ -13,7 +13,7 @@ Using technology to prevent Healthcare Associated Infections (HAI)
 * A simple, low-tech approach his highly effective for preventing infection
     * Since 1846, when Ignaz Semmelweis demonstrated the effectiveness of hand washing to prevent nosocomial and iatrogenic infections, Hand hygiene is the single most effective method of preventing HAI.
     * Unfortunately, compliance with hand hygiene is practiced less than half the time.
-    * Even with modern innovations - such as alcohol based gel hand washes - [hand hygeine compliance has improved from 38% to 55%]. (https://www.ncbi.nlm.nih.gov/pubmed/11996615)
+    * Even with modern innovations - such as alcohol based gel hand washes - [hand hygeine compliance has improved from 38% to 55%](https://www.ncbi.nlm.nih.gov/pubmed/11996615).
     
 * Thus simply improving hand washing compliance would prevent the majority of HAIs and resulting in tens of thousands of lives and billions of dollars saved annually.
     * For example, [an intensive hand hygiene improvement campaign demonstrated a sustained 10% improvement in hand hygiene compliance](https://wwwnc.cdc.gov/eid/article/22/9/15-1440_article) (as ascertained by observers) and a 14% reduction in the rate of HAI-CDIs over a 2 year period.
@@ -24,13 +24,24 @@ Using technology to prevent Healthcare Associated Infections (HAI)
     * ineffective business case
     
 # Proposed Solution
-
+* The objective of this project is to build a low cost hardware/software solution that encourages and documents hand hygeine
 * Using an innovative combination of off-the-shelf IOT technologies it is possible to build a system of behavioral nudges to enhance hand washing compliance.
     * A BLE beacon signals when a user has entered an area that requires hand hygeine
     * The user washes hands using foaming sanitizer or soap and water; a wearable on the wrist or finger detects the hand washing event and registers it
     * Users who forget to gel in or out receive a gentle nudge in the form of a vibrations or other innocuous alert
     * Data is collected and users can receive rewards for achieving hand hygiene compliance; data can also be used for hospital wide initiatives and incentives
 * Users who maintain a high rate of hand hygiene are given short term rewards (‘achievement unlocked’) within the app and longer term bonuses (performance bonus partially tied to % hand hygiene compliance)
+
+![proposed end to end solution]()
+
+* Although the largest benefit might be realized in the healthcare space, there are many groups that could benefit from this product
+   * hospitals
+   * clinics
+   * skilled nursing facilities (SNFs)
+   * restaurants
+   * parents - trying to encourage hand hygeine at home
+
+
 
 ## Technology
 * BLE beacon signifies entry into a room that requires hand hygiene (signal strength, accuracy, etc)
