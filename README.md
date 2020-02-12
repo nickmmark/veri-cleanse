@@ -3,10 +3,10 @@ Using technology to prevent Healthcare Associated Infections (HAI)
 
 # Problem definition
 * Healthcare associated infections (HAI) represent a significant source of morbidity and mortality; there are over 1.4M HAI/year worldwide. 
-* In the United States, one out of every 25 hospitalized patients is afflicted by a HAI (Magill SS, Edwards JR, Bamberg W, et al. Multistate Point-Prevalence Survey of Health Care–Associated Infections. New England Journal of Medicine 2014; 370:1198-208.) In other developed countries the rate can be as high as 1 in 20.
+* In the United States, [one out of every 25 hospitalized patients is afflicted by a HAI](https://www.nejm.org/doi/10.1056/NEJMoa1306801?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub%3dwww.ncbi.nlm.nih.gov). In other developed countries the rate can be as high as 1 in 20.
 * Every year in the US, there are approximately 80,000 deaths per year from HAI, which are estimated to cost the healthcare system over $33B annually.
     * Specifically in 2002, there were 30,665 for bloodstream infections, 13,088 for urinary tract infections, 8,205 for surgical site infections, and 11,062 for infections of other sites.
-* HAI data is collected by CMS (https://www.medicare.gov/hospitalcompare/data/healthcare-associated-infections.html) and reported publicly. 
+* [HAI data is collected by CMS](https://www.medicare.gov/hospitalcompare/data/healthcare-associated-infections.html) and reported publicly. 
     * There are several types of HAIs tracked by Medicare, including Catheter Associated Urinary Tract Infections (CAUTI), Central Line Associated Blood Stream Infections (CLABSI), Surgical Site Infections (SSI). There are also specific organisms responsible for infections that are tracked: Methicillin Resistant Staphylococcus Aureus (MRSA), 
     * Since 2014, Medicare has reduced reimbursement for hospitals with the highest rates of HAI; specifically the bottom 25% of hospitals have their reimbursement reduced by 1%.
 * Despite this progress, over 10% of hospitalized patients experience a HAC of which HAI is the most common.
@@ -66,5 +66,7 @@ The initial work can be broken into discreet stages; each of these POCs includes
 
 # Versioning/To-Do
 
+
 # References/See also
-    
+* Magill SS, Edwards JR, Bamberg W, et al. [Multistate Point-Prevalence Survey of Health Care–Associated Infections](https://www.nejm.org/doi/10.1056/NEJMoa1306801?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub%3dwww.ncbi.nlm.nih.gov). New England Journal of Medicine 2014; 370:1198-208.
+
