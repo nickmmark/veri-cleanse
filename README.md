@@ -42,12 +42,10 @@ Using technology to prevent Healthcare Associated Infections (HAI)
 * ESP32 - can do BLE beacon, WiFi. Would need another board for NFC. 
 * Soap dispenser
 
-
 # Technology challenges
 * Range of BLE beacons can range from 1 meter to 500 meters depending on transmit power. Probably the transmit power of the beacons placed in rooms would need to be low. There could be significant error in accurately detecting room entry. 
 * NFC must be very reliable. If the dispenser fails to trigger it would compromise trust in the system. 
 * Ideally the unit cost should be very low
-
 
 # Alternative approaches/competitors
 * current approaches to measure hand hygiene are inaccurate, cumbersome, and frequently are confounded by the Hawthorne Effect. These approaches are also extremely expensive. Approaches used to measure hand hygiene compliance include:
@@ -58,12 +56,15 @@ Using technology to prevent Healthcare Associated Infections (HAI)
     * [Biovigil](https://www.biovigil.com/) - *Infrared (IR) sensors* on badges detects proximity to soap dispensers
     * [HyGreen](https://www.infectioncontroltoday.com/hand-hygiene/hygreen-system-ensures-healthcare-workers-wash-their-hands) - *smell sensors* detect the presence of alcohols to confirm that hands have been washed
     
-# Early Stage Proof of Concept Work can be broken into stages
+# Early Stage Proof of Concepts
+The initial work can be broken into discreet stages; each of these POCs includes seperate documentation
 1. NFC equipped soap dispenser - a user activates the device using an RFID tag
 2. Soap dispenser that can upload data to the cloud - an [ESP8266](https://en.wikipedia.org/wiki/ESP8266) that can detect soap dispenser activation an upload a data packet
 3. Bluetooth beacon that can detect proximity between a user and a soap dispenser
 4. Wearable able to communicate over NFC
 5. A virtual machine server that can accept messages and display basic statistics about use
 
-    
+# Versioning/To-Do
+
+# References/See also
     
