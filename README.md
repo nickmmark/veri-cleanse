@@ -18,12 +18,14 @@ Using technology to prevent Healthcare Associated Infections (HAI)
 * Thus simply improving hand washing compliance would prevent the majority of HAIs and resulting in tens of thousands of lives and billions of dollars saved annually.
     * For example, [an intensive hand hygiene improvement campaign demonstrated a sustained 10% improvement in hand hygiene compliance](https://wwwnc.cdc.gov/eid/article/22/9/15-1440_article) (as ascertained by observers) and a 14% reduction in the rate of HAI-CDIs over a 2 year period.
 * Unfortunately, prior approaches have failed for multiple reasons including:
-    * imperfect data collection: inability to collect both gel and hand washing data, high failure rate in registering events
-    * lack of user feedback
+    * imperfect data collection: high failure rate in capturing events, inability to collect both gel and hand washing data, 
+    * lack of feedback to users: inability to capture individual level data and provide meaningful feedback
+    * concerns about patient privacy: cameras and observers are potential breaches of privacy
     * poor incentive structure: punishment instead of reward system
-    * ineffective business case
+    * ineffective business case: despite the potential ROI, high cost hardware may not be feasible to implement
+
     
-# Proposed Solution
+# Our Proposed Solution
 * The objective of this project is to build a low cost hardware/software solution that encourages and documents hand hygeine
 * Using an innovative combination of off-the-shelf IOT technologies it is possible to build a system of behavioral nudges to enhance hand washing compliance.
     * A BLE beacon signals when a user has entered an area that requires hand hygeine
@@ -47,11 +49,13 @@ Using technology to prevent Healthcare Associated Infections (HAI)
 * BLE beacon signifies entry into a room that requires hand hygiene (signal strength, accuracy, etc)
     * [Whitepaper on BLE beacon technology](http://pages.silabs.com/rs/634-SLU-379/images/Whitepaper-Developing-Beacons-with-Bluetooth-Low-Energy-Technology.pdf)
 * Hand hygiene events are detected using NFC on gel dispensers or on sinks
-* Data is uploaded to the cloud via WiFI
+* Data is uploaded to the cloud via WiFI 
 * What hardware is required?
     * Wearable (Apple Watch, Fitbit, Amazfit, Mi Band, etc). Must have NFC and the ability to run outside code. 
-* ESP32 - can do BLE beacon, WiFi. Would need another board for NFC. 
-* Soap dispenser
+* [ESP32](https://www.espressif.com/en/products/hardware/esp32/overview) - powerful microcontroller that can can do BLE, BLE beacon, WiFi. Well suited to many IoT applications.
+* [ESP8266](https://en.wikipedia.org/wiki/ESP8266) - WiFi enabled, lower cost and optimized for sending data packets to the cloud.
+* [RC552](http://www.hobbytronics.co.uk/mfrc522-reader) - a low cost NFC/RFID module compatible with 13.56mhz
+* Soap dispenser - simple low cost unit for prototyping
 
 # Technology challenges
 * Range of BLE beacons can range from 1 meter to 500 meters depending on transmit power. Probably the transmit power of the beacons placed in rooms would need to be low. There could be significant error in accurately detecting room entry. 
@@ -74,6 +78,17 @@ The initial work can be broken into discreet stages; each of these POCs includes
 3. Bluetooth beacon that can detect proximity between a user and a soap dispenser
 4. Wearable able to communicate over NFC
 5. A virtual machine server that can accept messages and display basic statistics about use
+
+# Abbreviations
+HAI - healthcare associated infections
+CAUTI - catheter associated urinary tract infection
+CLABSI - central line associated blood stream infection
+MRSA - methicillin resistant staphylococcus aureus
+CDI - clostridium difficile infection
+IOT - internet of things
+NFC - near field communication
+BLE - Bluetooth low energy beacons
+RFID - radiofrequency identification
 
 # Versioning/To-Do
 
