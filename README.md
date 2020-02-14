@@ -14,7 +14,7 @@ Using IoT technology to monitor hand hygeine compliance and prevent Healthcare A
 
 * A simple, low-tech approach his highly effective for preventing infection
     * Since 1846, when [Ignaz Semmelweis](https://en.wikipedia.org/wiki/Ignaz_Semmelweis) demonstrated the effectiveness of hand washing to prevent nosocomial and iatrogenic infections, *Hand hygiene has proven to be the single most effective method of preventing HAI.*
-    * Unfortunately, compliance with hand hygiene is practiced less than half the time.
+    * Unfortunately, *proper hand hygiene is practiced less than half the time*.
     * Even with modern innovations - such as alcohol based gel hand washes, [which have improved hand hygeine compliance from 38% to 55%](https://www.ncbi.nlm.nih.gov/pubmed/11996615), proper hand hygeine is neglected almost half the time.
     
 * Thus *improving hand washing compliance would prevent the majority of HAIs and resulting in tens of thousands of lives and billions of dollars saved annually.*
