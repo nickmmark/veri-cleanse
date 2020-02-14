@@ -3,7 +3,7 @@ Using IoT technology to monitor hand hygeine compliance and prevent Healthcare A
 
 ## Problem definition
 * [Healthcare associated infections](https://www.cdc.gov/hai/data/index.html) (HAI) represent a significant source of morbidity and mortality:
-   * Worldwide, [the WHO estimates that there are *hundred of millions* of HAI per year](https://www.who.int/gpsc/country_work/gpsc_ccisc_fact_sheet_en.pdf). Newborns in low to middle income countries are particularly susceptible to HAI, and it is estimated [that 4-56% of neonatal deaths are due to HAI](https://www.who.int/gpsc/country_work/gpsc_ccisc_fact_sheet_en.pdf), particularly in Southeast Asia.
+   * Worldwide, [the WHO estimates that there are *hundred of millions* of HAI per year](https://www.who.int/gpsc/country_work/gpsc_ccisc_fact_sheet_en.pdf). Newborns in low to middle income countries are particularly susceptible to HAI, and it is estimated [that **4-56% of neonatal deaths are due to HAI**](https://www.who.int/gpsc/country_work/gpsc_ccisc_fact_sheet_en.pdf), particularly in Southeast Asia.
    * In the United States, there are over 1.4 million HAI/year and approximately [one out of every 25 hospitalized patients is afflicted by a HAI](https://www.nejm.org/doi/10.1056/NEJMoa1306801?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub%3dwww.ncbi.nlm.nih.gov). In other developed countries the rate can be as high as 1 in 20.
 * Every year in the US, [there are approximately 80,000-90,000 deaths per year from HAI, which are estimated to cost the healthcare system over $33B annually](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2827870/). 
 * There are several different types of HAI. They can classified by site of infection (e.g. bloodstream or urinary infection), route of infection (e.g. catheter related, ventilator associated , surgical site infections), or specific causative organisms (e.g. methacillin resistant staphylococcus aures; MRSA)
@@ -14,10 +14,10 @@ Using IoT technology to monitor hand hygeine compliance and prevent Healthcare A
 
 * A simple, low-tech approach his highly effective for preventing infection
     * Since 1846, when [Ignaz Semmelweis](https://en.wikipedia.org/wiki/Ignaz_Semmelweis) demonstrated the effectiveness of hand washing to prevent nosocomial and iatrogenic infections, *Hand hygiene has proven to be the single most effective method of preventing HAI.*
-    * Unfortunately, *proper hand hygiene is practiced less than half the time*.
+    * Unfortunately, **proper hand hygiene is practiced less than half the time**.
     * Even with modern innovations - such as alcohol based gel hand washes, [which have improved hand hygeine compliance from 38% to 55%](https://www.ncbi.nlm.nih.gov/pubmed/11996615), proper hand hygeine is neglected almost half the time.
     
-* Thus *improving hand washing compliance would prevent the majority of HAIs and resulting in tens of thousands of lives and billions of dollars saved annually.*
+* Thus **improving hand washing compliance would prevent the majority of HAIs and resulting in tens of thousands of lives and billions of dollars saved annually**.
     * For example, [an intensive hand hygiene improvement campaign demonstrated a sustained 10% improvement in hand hygiene compliance](https://wwwnc.cdc.gov/eid/article/22/9/15-1440_article) (as ascertained by observers) and a 14% reduction in the rate of HAI-CDIs over a 2 year period.
 ![effectiveness of prior intervention](https://github.com/nickmmark/hand-hi-gene/blob/master/figures/example_intervention.jpg)
     
