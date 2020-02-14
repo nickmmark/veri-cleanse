@@ -47,6 +47,7 @@ Using IoT technology to monitor hand hygeine compliance and prevent Healthcare A
    * restaurants
    * parents - trying to encourage hand hygeine at home
 
+* This system could be valuable both in the developed and developing world.
 
 ## Technology
 * BLE beacon signifies entry into a room that requires hand hygiene (signal strength, accuracy, etc)
@@ -57,13 +58,17 @@ Using IoT technology to monitor hand hygeine compliance and prevent Healthcare A
     * Wearable (Apple Watch, Fitbit, Amazfit, Mi Band, etc). Must have NFC and the ability to run outside code. 
 * [ESP32](https://www.espressif.com/en/products/hardware/esp32/overview) - powerful microcontroller that can can do BLE, BLE beacon, WiFi. Well suited to many IoT applications.
 * [ESP8266](https://en.wikipedia.org/wiki/ESP8266) - WiFi enabled, lower cost and optimized for sending data packets to the cloud.
-* [RC552](http://www.hobbytronics.co.uk/mfrc522-reader) - a low cost NFC/RFID module compatible with 13.56mhz
+* [RC552](http://www.hobbytronics.co.uk/mfrc522-reader) - a low cost NFC/RFID module compatible with 13.56mhz communication standard
 * Soap dispenser - simple low cost unit for prototyping
 
 ## Technology challenges
-* Range of BLE beacons can range from 1 meter to 500 meters depending on transmit power. Probably the transmit power of the beacons placed in rooms would need to be low. There could be significant error in accurately detecting room entry. 
-* NFC must be very reliable. If the dispenser fails to trigger it would compromise trust in the system. 
-* Ideally the unit cost should be very low
+* Range of BLE beacons varies from 1 meter to 500 meters depending on transmit power. 
+    * Probably the transmit power of the beacons placed in rooms would need to be low. 
+    * There could be significant error in accurately detecting room entry. 
+    * Unclear if the beacons should be on the people (like on badges or in a wearable) or the dispensers. Both could work.
+* NFC must be very reliable. If the dispenser fails to trigger it would compromise trust in the system. For this reason it might make more sense to make the dispensers activate using the conventional IR sensors and only detect the user with NFC.
+* Ideally the unit cost should be very low (<$25) to encourage widespread adoption, particularly in the developing world.
+* The units should be very parsimonious with sending data over hospital WiFi; monopolizing bandwidth would be a big problem for hospitals.
 
 ## Alternative approaches/competitors
 * current approaches to measure hand hygiene are inaccurate, cumbersome, and frequently are confounded by the [Hawthorne Effect](https://en.wikipedia.org/wiki/Hawthorne_effect). These approaches are also extremely expensive. Approaches used to measure hand hygiene compliance include:
@@ -79,8 +84,12 @@ The initial work can be broken into discreet stages; each of these POCs includes
 1. NFC equipped soap dispenser - a user activates the device using an [RFID tag](https://en.wikipedia.org/wiki/Radio-frequency_identification)
 2. Soap dispenser that can upload data to the cloud - an [ESP8266](https://en.wikipedia.org/wiki/ESP8266) that can detect soap dispenser activation an upload a data packet
 3. Bluetooth beacon that can detect proximity between a user and a soap dispenser
-4. Wearable able to communicate over NFC
-5. A virtual machine server that can accept messages and display basic statistics about use
+4. Wearable able to communicate with the soap dispenser
+5. A server (platoform agnostic) that can accept messages from multiple soap dispensers
+6. A simple dashboard for interpreting the usage data
+
+## Goal Deliverable
+A low cost unit for detecting hand hygeine and uploading the data to the cloud. The results should be surfaced in a manner that is easy to interpret.
 
 ## Abbreviations
 - HAI - healthcare associated infections
