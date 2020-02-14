@@ -1,7 +1,7 @@
-## hand-hi-gene
+# hand-hi-gene
 Using IoT technology to monitor hand hygeine compliance and prevent Healthcare Associated Infections (HAI)
 
-# Problem definition
+## Problem definition
 * [Healthcare associated infections](https://www.cdc.gov/hai/data/index.html) (HAI) represent a significant source of morbidity and mortality:
    * Worldwide, [the WHO estimates that there are *hundred of millions* of HAI per year](https://www.who.int/gpsc/country_work/gpsc_ccisc_fact_sheet_en.pdf). Newborns in low to middle income countries are particularly susceptible to HAI, and it is estimated [that 4-56% of neonatal deaths are due to HAI](https://www.who.int/gpsc/country_work/gpsc_ccisc_fact_sheet_en.pdf), particularly in Southeast Asia.
    * In the United States, there are over 1.4 million HAI/year and approximately [one out of every 25 hospitalized patients is afflicted by a HAI](https://www.nejm.org/doi/10.1056/NEJMoa1306801?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub%3dwww.ncbi.nlm.nih.gov). In other developed countries the rate can be as high as 1 in 20.
@@ -29,7 +29,7 @@ Using IoT technology to monitor hand hygeine compliance and prevent Healthcare A
     * ineffective business case: despite the potential ROI, high cost hardware may not be feasible to implement
 
     
-# Our Proposed Solution
+## Our Proposed Solution
 * The objective of this project is to build a low cost hardware/software solution that encourages and documents hand hygeine
 * Using an innovative combination of off-the-shelf IOT technologies it is possible to build a system of behavioral nudges to enhance hand washing compliance.
     * A BLE beacon signals when a user has entered an area that requires hand hygeine
@@ -48,7 +48,6 @@ Using IoT technology to monitor hand hygeine compliance and prevent Healthcare A
    * parents - trying to encourage hand hygeine at home
 
 
-
 ## Technology
 * BLE beacon signifies entry into a room that requires hand hygiene (signal strength, accuracy, etc)
     * [Whitepaper on BLE beacon technology](http://pages.silabs.com/rs/634-SLU-379/images/Whitepaper-Developing-Beacons-with-Bluetooth-Low-Energy-Technology.pdf)
@@ -61,12 +60,12 @@ Using IoT technology to monitor hand hygeine compliance and prevent Healthcare A
 * [RC552](http://www.hobbytronics.co.uk/mfrc522-reader) - a low cost NFC/RFID module compatible with 13.56mhz
 * Soap dispenser - simple low cost unit for prototyping
 
-# Technology challenges
+## Technology challenges
 * Range of BLE beacons can range from 1 meter to 500 meters depending on transmit power. Probably the transmit power of the beacons placed in rooms would need to be low. There could be significant error in accurately detecting room entry. 
 * NFC must be very reliable. If the dispenser fails to trigger it would compromise trust in the system. 
 * Ideally the unit cost should be very low
 
-# Alternative approaches/competitors
+## Alternative approaches/competitors
 * current approaches to measure hand hygiene are inaccurate, cumbersome, and frequently are confounded by the Hawthorne Effect. These approaches are also extremely expensive. Approaches used to measure hand hygiene compliance include:
     * Paid observers
     * Video cameras
@@ -75,7 +74,7 @@ Using IoT technology to monitor hand hygeine compliance and prevent Healthcare A
     * [Biovigil](https://www.biovigil.com/) - *Infrared (IR) sensors* on badges detects proximity to soap dispensers
     * [HyGreen](https://www.infectioncontroltoday.com/hand-hygiene/hygreen-system-ensures-healthcare-workers-wash-their-hands) - *smell sensors* detect the presence of alcohols to confirm that hands have been washed
     
-# Early Stage Proof of Concepts
+## Early Stage Proof of Concepts
 The initial work can be broken into discreet stages; each of these POCs includes seperate documentation
 1. NFC equipped soap dispenser - a user activates the device using an [RFID tag](https://en.wikipedia.org/wiki/Radio-frequency_identification)
 2. Soap dispenser that can upload data to the cloud - an [ESP8266](https://en.wikipedia.org/wiki/ESP8266) that can detect soap dispenser activation an upload a data packet
@@ -83,7 +82,7 @@ The initial work can be broken into discreet stages; each of these POCs includes
 4. Wearable able to communicate over NFC
 5. A virtual machine server that can accept messages and display basic statistics about use
 
-# Abbreviations
+## Abbreviations
 - HAI - healthcare associated infections
 - CAUTI - catheter associated urinary tract infection
 - CLABSI - central line associated blood stream infection
@@ -94,9 +93,9 @@ The initial work can be broken into discreet stages; each of these POCs includes
 - BLE - Bluetooth low energy beacons
 - RFID - radiofrequency identification
 
-# Versioning/Known issues/To-Do
+## Versioning/Known issues/To-Do
 - 
 
-# References/See also
+## References/See also
 * Magill SS, Edwards JR, Bamberg W, et al. [Multistate Point-Prevalence Survey of Health Care–Associated Infections](https://www.nejm.org/doi/10.1056/NEJMoa1306801?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub%3dwww.ncbi.nlm.nih.gov). _New England Journal of Medicine_ 2014; 370:1198-208.
 
