@@ -13,7 +13,7 @@ Using IoT technology to monitor hand hygeine compliance and prevent Healthcare A
     * Due to technological advances (chlorhexidine replacing iodine disinfectant, alcohol gel supplanting soap and water, etc) and changes in reimbursement such as the [Medicare Hospital Acquired Condition Reduction Program (HACRP)](https://www.cms.gov/Medicare/Medicare-Fee-for-Service-Payment/AcuteInpatientPPS/HAC-Reduction-Program), hospitals have dedicated substantial effort to preventing HAIs.
 
 * A simple, low-tech approach his highly effective for preventing infection
-    * Since 1846, when Ignaz Semmelweis demonstrated the effectiveness of hand washing to prevent nosocomial and iatrogenic infections, *Hand hygiene has proven to be the single most effective method of preventing HAI.*
+    * Since 1846, when [Ignaz Semmelweis](https://en.wikipedia.org/wiki/Ignaz_Semmelweis) demonstrated the effectiveness of hand washing to prevent nosocomial and iatrogenic infections, *Hand hygiene has proven to be the single most effective method of preventing HAI.*
     * Unfortunately, compliance with hand hygiene is practiced less than half the time.
     * Even with modern innovations - such as alcohol based gel hand washes, [which have improved hand hygeine compliance from 38% to 55%](https://www.ncbi.nlm.nih.gov/pubmed/11996615), proper hand hygeine is neglected almost half the time.
     
