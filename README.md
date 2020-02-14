@@ -21,7 +21,7 @@ Using IoT technology to monitor hand hygeine compliance and prevent Healthcare A
     * For example, [an intensive hand hygiene improvement campaign demonstrated a sustained 10% improvement in hand hygiene compliance](https://wwwnc.cdc.gov/eid/article/22/9/15-1440_article) (as ascertained by observers) and a 14% reduction in the rate of HAI-CDIs over a 2 year period.
 ![effectiveness of prior intervention](https://github.com/nickmmark/hand-hi-gene/blob/master/figures/example_intervention.jpg)
     
-* Unfortunately, prior approaches have failed for multiple reasons including:
+* Unfortunately, prior approaches have failed for multiple reasons:
     * imperfect data collection: high failure rate in capturing events, inability to collect both gel and hand washing data, 
     * lack of feedback to users: inability to capture individual level data and provide meaningful feedback
     * concerns about patient privacy: cameras and observers are potential breaches of privacy
