@@ -66,7 +66,7 @@ Using IoT technology to monitor hand hygeine compliance and prevent Healthcare A
 * Ideally the unit cost should be very low
 
 ## Alternative approaches/competitors
-* current approaches to measure hand hygiene are inaccurate, cumbersome, and frequently are confounded by the Hawthorne Effect. These approaches are also extremely expensive. Approaches used to measure hand hygiene compliance include:
+* current approaches to measure hand hygiene are inaccurate, cumbersome, and frequently are confounded by the [Hawthorne Effect](https://en.wikipedia.org/wiki/Hawthorne_effect). These approaches are also extremely expensive. Approaches used to measure hand hygiene compliance include:
     * Paid observers
     * Video cameras
 * companies who are doing something similar using alternative technologies
