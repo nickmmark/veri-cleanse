@@ -1,5 +1,5 @@
 ## hand-hi-gene
-Using technology to prevent Healthcare Associated Infections (HAI)
+Using IoT technology to monitor hand hygeine compliance and prevent Healthcare Associated Infections (HAI)
 
 # Problem definition
 * [Healthcare associated infections](https://www.cdc.gov/hai/data/index.html) (HAI) represent a significant source of morbidity and mortality:
@@ -77,7 +77,7 @@ Using technology to prevent Healthcare Associated Infections (HAI)
     
 # Early Stage Proof of Concepts
 The initial work can be broken into discreet stages; each of these POCs includes seperate documentation
-1. NFC equipped soap dispenser - a user activates the device using an RFID tag
+1. NFC equipped soap dispenser - a user activates the device using an [RFID tag](https://en.wikipedia.org/wiki/Radio-frequency_identification)
 2. Soap dispenser that can upload data to the cloud - an [ESP8266](https://en.wikipedia.org/wiki/ESP8266) that can detect soap dispenser activation an upload a data packet
 3. Bluetooth beacon that can detect proximity between a user and a soap dispenser
 4. Wearable able to communicate over NFC
@@ -98,5 +98,5 @@ The initial work can be broken into discreet stages; each of these POCs includes
 - 
 
 # References/See also
-* Magill SS, Edwards JR, Bamberg W, et al. [Multistate Point-Prevalence Survey of Health Care–Associated Infections](https://www.nejm.org/doi/10.1056/NEJMoa1306801?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub%3dwww.ncbi.nlm.nih.gov). New England Journal of Medicine 2014; 370:1198-208.
+* Magill SS, Edwards JR, Bamberg W, et al. [Multistate Point-Prevalence Survey of Health Care–Associated Infections](https://www.nejm.org/doi/10.1056/NEJMoa1306801?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub%3dwww.ncbi.nlm.nih.gov). _New England Journal of Medicine_ 2014; 370:1198-208.
 
