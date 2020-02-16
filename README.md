@@ -1,4 +1,4 @@
-# hand-hi-gene
+# Veri-Cleanse
 Using IoT technology to monitor hand hygeine compliance and prevent Healthcare Associated Infections (HAI)
 
 ## Problem definition
@@ -41,6 +41,8 @@ Using IoT technology to monitor hand hygeine compliance and prevent Healthcare A
 
 ![proposed end to end solution](https://github.com/nickmmark/hand-hi-gene/blob/master/figures/proposed_sysem_overview.png)
 
+* This system could be valuable both in the developed and developing world. Sadly, more than 150 years after Semmelweis demonstrated the benefit of handwashing in obstetrics, HAI remains one of the leading causes of infant mortality in the developing world. Thus A low cost easy ot use system of monitoring hand washing could millions worldwide.
+
 * Although the largest benefit might be realized in the healthcare space, there are many groups that could benefit from this product
    * hospitals
    * clinics
@@ -48,7 +50,6 @@ Using IoT technology to monitor hand hygeine compliance and prevent Healthcare A
    * restaurants
    * parents - trying to encourage hand hygeine at home
 
-* This system could be valuable both in the developed and developing world.
 
 ## Technology
 * BLE beacon signifies entry into a room that requires hand hygiene (signal strength, accuracy, etc)
@@ -57,6 +58,7 @@ Using IoT technology to monitor hand hygeine compliance and prevent Healthcare A
 * Data is uploaded to the cloud via WiFI 
 * What hardware is required?
     * Wearable (Apple Watch, Fitbit, Amazfit, Mi Band, etc). Must have NFC and the ability to run outside code. 
+    ![example of a wearable](https://media1.popsugar-assets.com/files/thumbor/ABbf1Km7ItJgV7noHCre5k8QDfE/fit-in/1024x1024/filters:format_auto-!!-:strip_icc-!!-/2019/04/30/974/n/1922729/bbaaabb15cc8cac5330f21.46671604_fitbit/i/Fitbit-Inspire.png)
 * [ESP32](https://www.espressif.com/en/products/hardware/esp32/overview) - powerful microcontroller that can can do BLE, BLE beacon, WiFi. Well suited to many IoT applications.
 * [ESP8266](https://en.wikipedia.org/wiki/ESP8266) - WiFi enabled, lower cost and optimized for sending data packets to the cloud.
 * [RC552](http://www.hobbytronics.co.uk/mfrc522-reader) - a low cost NFC/RFID module compatible with 13.56mhz communication standard
@@ -97,6 +99,15 @@ The initial work can be broken into discreet stages; each of these POCs includes
 
 ## Goal Deliverable
 A low cost unit for detecting hand hygeine and uploading the data to the cloud. The results should be surfaced in a manner that is easy to interpret.
+
+## Product Name(s)
+* Working name: ***_Veri-cleanse_*** - (pronounced ˈver-​ə ˈklenz) portmanteau of "verify" and "cleanse"
+* Alternatives:
+  * ***_Sani-check_*** - (pronounced sa-nə chek) portmanteau of "sanitize" and "check"
+
+## License
+- [ ] TBD what license best covers this work
+
 
 ## Abbreviations
 - HAI - healthcare associated infections
