@@ -26,11 +26,11 @@ Using IoT technology to monitor hand hygeine compliance and prevent Healthcare A
 ![effectiveness of prior intervention](https://github.com/nickmmark/hand-hi-gene/blob/master/figures/example_intervention.jpg)
     
 * Unfortunately, prior approaches have failed for multiple reasons:
-    * imperfect data collection: high failure rate in capturing events, inability to collect both gel and hand washing data, 
-    * lack of feedback to users: inability to capture individual level data and provide meaningful feedback
-    * concerns about patient privacy: cameras and observers are potential breaches of privacy
-    * poor incentive structure: punishment instead of reward system
-    * ineffective business case: despite the potential ROI, high cost hardware may not be feasible to implement
+    * ***imperfect data collection***: high failure rate in capturing events, inability to collect both gel and hand washing data, 
+    * ***lack of feedback to users***: inability to capture individual level data and provide meaningful feedback
+    * ***concerns about patient privacy***: cameras and observers are potential breaches of privacy
+    * ***poor incentive structure***: punishment instead of reward system
+    * ***ineffective business case***: despite the potential ROI, high cost hardware may not be feasible to implement
 
     
 ## Our Proposed Solution
@@ -61,12 +61,12 @@ Using IoT technology to monitor hand hygeine compliance and prevent Healthcare A
 * Data is uploaded to the cloud via WiFI 
 * What hardware is required?
     * Wearable (Apple Watch, Fitbit, Amazfit, Mi Band, etc). Must have NFC and the ability to run outside code. 
-    ![example of a wearable]<img src="https://media1.popsugar-assets.com/files/thumbor/ABbf1Km7ItJgV7noHCre5k8QDfE/fit-in/1024x1024/filters:format_auto-!!-:strip_icc-!!-/2019/04/30/974/n/1922729/bbaaabb15cc8cac5330f21.46671604_fitbit/i/Fitbit-Inspire.png" width="100">
+     <img src="https://media1.popsugar-assets.com/files/thumbor/ABbf1Km7ItJgV7noHCre5k8QDfE/fit-in/1024x1024/filters:format_auto-!!-:strip_icc-!!-/2019/04/30/974/n/1922729/bbaaabb15cc8cac5330f21.46671604_fitbit/i/Fitbit-Inspire.png" width="300">
 * [ESP32](https://www.espressif.com/en/products/hardware/esp32/overview) - powerful microcontroller that can can do BLE, BLE beacon, WiFi. Well suited to many IoT applications.
 * [ESP8266](https://en.wikipedia.org/wiki/ESP8266) - WiFi enabled, lower cost and optimized for sending data packets to the cloud.
 * [RC552](http://www.hobbytronics.co.uk/mfrc522-reader) - a low cost NFC/RFID module compatible with 13.56mhz communication standard
 * Soap dispenser - simple low cost unit for prototyping
-    ![example of a soap dispenser]<img src="https://images-na.ssl-images-amazon.com/images/I/814v0LYlM2L._AC_SY679_.jpg" width="100">
+    <img src="https://images-na.ssl-images-amazon.com/images/I/814v0LYlM2L._AC_SY679_.jpg" width="200">
 
 ## Technology challenges
 * Range of BLE beacons varies from 1 meter to 500 meters depending on transmit power. 
