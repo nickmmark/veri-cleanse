@@ -60,12 +60,12 @@ Using IoT technology to monitor hand hygeine compliance and prevent Healthcare A
 * Hand hygiene events are detected using NFC on gel dispensers or on sinks
 * Data is uploaded to the cloud via WiFI 
 * What hardware is required?
-    * Wearable (Apple Watch, Fitbit, Amazfit, Mi Band, etc). Must have NFC and the ability to run outside code. 
+    * ***Wearable*** - Must have NFC and the ability to run outside code. Ideally low cost and able to run outside code (without jailbreaking)
      <img src="https://media1.popsugar-assets.com/files/thumbor/ABbf1Km7ItJgV7noHCre5k8QDfE/fit-in/1024x1024/filters:format_auto-!!-:strip_icc-!!-/2019/04/30/974/n/1922729/bbaaabb15cc8cac5330f21.46671604_fitbit/i/Fitbit-Inspire.png" width="300">
-* [ESP32](https://www.espressif.com/en/products/hardware/esp32/overview) - powerful microcontroller that can can do BLE, BLE beacon, WiFi. Well suited to many IoT applications.
-* [ESP8266](https://en.wikipedia.org/wiki/ESP8266) - WiFi enabled, lower cost and optimized for sending data packets to the cloud.
-* [RC552](http://www.hobbytronics.co.uk/mfrc522-reader) - a low cost NFC/RFID module compatible with 13.56mhz communication standard
-* Soap dispenser - simple low cost unit for prototyping
+* ***[ESP32](https://www.espressif.com/en/products/hardware/esp32/overview)*** - powerful microcontroller that can can do BLE, BLE beacon, WiFi. Well suited to many IoT applications.
+* ***[ESP8266](https://en.wikipedia.org/wiki/ESP8266)*** - WiFi enabled, lower cost and optimized for sending data packets to the cloud.
+* ***[RC552](http://www.hobbytronics.co.uk/mfrc522-reader)*** - a low cost NFC/RFID module compatible with 13.56mhz communication standard
+* ***Soap dispenser*** - simple low cost unit for prototyping
     <img src="https://images-na.ssl-images-amazon.com/images/I/814v0LYlM2L._AC_SY679_.jpg" width="200">
 
 ## Technology challenges
