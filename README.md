@@ -61,12 +61,12 @@ Using IoT technology to monitor hand hygeine compliance and prevent Healthcare A
 * Data is uploaded to the cloud via WiFI 
 * What hardware is required?
     * Wearable (Apple Watch, Fitbit, Amazfit, Mi Band, etc). Must have NFC and the ability to run outside code. 
-    ![example of a wearable](https://media1.popsugar-assets.com/files/thumbor/ABbf1Km7ItJgV7noHCre5k8QDfE/fit-in/1024x1024/filters:format_auto-!!-:strip_icc-!!-/2019/04/30/974/n/1922729/bbaaabb15cc8cac5330f21.46671604_fitbit/i/Fitbit-Inspire.png | width=100)
+    ![example of a wearable](https://media1.popsugar-assets.com/files/thumbor/ABbf1Km7ItJgV7noHCre5k8QDfE/fit-in/1024x1024/filters:format_auto-!!-:strip_icc-!!-/2019/04/30/974/n/1922729/bbaaabb15cc8cac5330f21.46671604_fitbit/i/Fitbit-Inspire.png width="100")
 * [ESP32](https://www.espressif.com/en/products/hardware/esp32/overview) - powerful microcontroller that can can do BLE, BLE beacon, WiFi. Well suited to many IoT applications.
 * [ESP8266](https://en.wikipedia.org/wiki/ESP8266) - WiFi enabled, lower cost and optimized for sending data packets to the cloud.
 * [RC552](http://www.hobbytronics.co.uk/mfrc522-reader) - a low cost NFC/RFID module compatible with 13.56mhz communication standard
 * Soap dispenser - simple low cost unit for prototyping
-    ![example of a soap dispenser](https://images-na.ssl-images-amazon.com/images/I/814v0LYlM2L._AC_SY679_.jpg | width=100)
+    ![example of a soap dispenser]<img src="https://images-na.ssl-images-amazon.com/images/I/814v0LYlM2L._AC_SY679_.jpg" width="100">
 
 ## Technology challenges
 * Range of BLE beacons varies from 1 meter to 500 meters depending on transmit power. 
