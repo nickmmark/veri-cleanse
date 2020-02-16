@@ -84,9 +84,10 @@ The initial work can be broken into discreet stages; each of these POCs includes
 1. NFC equipped soap dispenser - a user activates the device using an [RFID tag](https://en.wikipedia.org/wiki/Radio-frequency_identification)
 2. Soap dispenser that can upload data to the cloud - an [ESP8266](https://en.wikipedia.org/wiki/ESP8266) that can detect soap dispenser activation an upload a data packet
 3. Bluetooth beacon that can detect proximity between a user and a soap dispenser
-4. Wearable able to communicate with the soap dispenser
-5. A server (platoform agnostic) that can accept messages from multiple soap dispensers
-6. A simple dashboard for interpreting the usage data
+4. Remote control/activation of a soap dispenser
+5. Wearable able to communicate with the soap dispenser
+6. A server (platoform agnostic) that can accept messages from multiple soap dispensers
+7. A simple dashboard for interpreting the usage data
 
 ## Goal Deliverable
 A low cost unit for detecting hand hygeine and uploading the data to the cloud. The results should be surfaced in a manner that is easy to interpret.
