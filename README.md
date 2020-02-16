@@ -71,6 +71,11 @@ Using IoT technology to monitor hand hygeine compliance and prevent Healthcare A
 * Ideally the unit cost should be very low (<$25) to encourage widespread adoption, particularly in the developing world.
 * The units should be very parsimonious with sending data over hospital WiFi; monopolizing bandwidth would be a big problem for hospitals.
 
+## Advantages of this approach
+* Low unit cost ([ESP32/ESP8266 cost $4-12](https://makeradvisor.com/esp32-vs-esp8266/), RFID tags cost <$0.50/each, and [entry level wearables can be purchased for $27-50](https://www.techradar.com/news/best-cheap-activity-trackers))
+* Proven technologies (RFID, NFC, BLE, WiFi) are used to build the stack ensuring reliability/scalability
+* Carrots not stick (motivate users with rewards not penalties)
+
 ## Alternative approaches/competitors
 * current approaches to measure hand hygiene are inaccurate, cumbersome, and frequently are confounded by the [Hawthorne Effect](https://en.wikipedia.org/wiki/Hawthorne_effect). These approaches are also extremely expensive. Approaches used to measure hand hygiene compliance include:
     * Paid observers
