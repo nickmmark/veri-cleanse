@@ -12,7 +12,7 @@ These are small projects meant to illustrate the incremental early steps necessa
 
 ![wiring diagram](https://github.com/nickmmark/veri-cleanse/blob/master/POC/figures/POC4_wiring.png)
 
-* Code: based upon the ESP32 web server demo, configured to activate a relay
+* Code: based upon the ESP32 web server demo, configured to activate a relay or LED
 
 ![demonstration](https://github.com/nickmmark/veri-clean/blob/master/POC/figures/poc_demo_remote_control.gif)
 
