@@ -11,7 +11,7 @@ These are small projects meant to illustrate the incremental early steps necessa
   * Soldered two pairs of wires onto the main board of the soap dispenser: connected to motor and to the IR sensor.
   * Connected the setup together like this:
 
-<src="https://github.com/nickmmark/veri-cleanse/blob/master/POC/figures/soldered_connections.jpeg", width="300">
+<img src="https://github.com/nickmmark/veri-cleanse/blob/master/POC/figures/soldered_connections.jpeg" width="300">
 
 ![wiring diagram](https://github.com/nickmmark/veri-cleanse/blob/master/POC/figures/POC4_wiring.png)
 
