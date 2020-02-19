@@ -17,6 +17,15 @@ These are small projects meant to illustrate the incremental early steps necessa
 
 * ***Code***: based upon the ESP32 web server demo, configured to activate a relay or LED
 
+```C++
+#include <WiFi.h>               // load wifi library
+const char* ssid     = "xxx";   // store network credentials
+const char* password = "yyy";
+WiFiServer server(80);          // Set web server port number to 80
+WiFi.begin(ssid, password);     // connect to wifi
+```
+
+
 * ***Demonstration***:
 ![demonstration](https://github.com/nickmmark/veri-clean/blob/master/POC/figures/poc_demo_remote_control.gif)
 
