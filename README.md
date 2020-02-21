@@ -132,3 +132,4 @@ A low cost unit for detecting hand hygeine and uploading the data to the cloud. 
 * Magill SS, Edwards JR, Bamberg W, et al. [Multistate Point-Prevalence Survey of Health Care–Associated Infections](https://www.nejm.org/doi/10.1056/NEJMoa1306801?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub%3dwww.ncbi.nlm.nih.gov). _New England Journal of Medicine_ 2014; 370:1198-208.
 * Stone PW, [Economic burden of healthcare-associated infections: an American perspective](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2827870/), _Expert Rev Pharmacoecon Outcomes Res. Author manuscript_ 2010
 * Theodore G. Obenchain, [Genius Belabored: Childbed Fever and the Tragic Life of Ignaz Semmelweis](https://www.amazon.com/Genius-Belabored-Childbed-Tragic-Semmelweis-ebook/dp/B01KTXDWRU), 2016
+* Schnall R, [A Review and Analysis of Existing Mobile Phone Applications for HAI Prevention](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4457644/), _Am J Infect Control_ 2016
