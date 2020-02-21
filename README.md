@@ -83,6 +83,7 @@ Using IoT technology to monitor hand hygeine compliance and prevent Healthcare A
 * Carrots not stick (motivate users with rewards not penalties)
 
 ## Alternative approaches/competitors
+* a [recent review of mobile health technologies to prevent HAIs](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4457644/) found "Given the dearth of available apps, and the lack of functionality with those that are available, there is a need for further development of mobile apps for HAI prevention at the point of care."
 * current approaches to measure hand hygiene are inaccurate, cumbersome, and frequently are confounded by the [Hawthorne Effect](https://en.wikipedia.org/wiki/Hawthorne_effect). These approaches are also extremely expensive. Approaches used to measure hand hygiene compliance include:
     * Paid observers
     * Video cameras
