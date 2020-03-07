@@ -2,7 +2,10 @@
 These are small projects meant to illustrate the incremental early steps necessary to build the fully featured device.
 
 ### POC #1
-### POC #2
+### POC #2 -
+* ***Goal***: Soap dispenser that can upload data to the cloud - 
+* ***Hardware***: an ESP8266 that can detect soap dispenser activation an upload a data packet
+
 ### POC #3
 
 ### POC #4 
